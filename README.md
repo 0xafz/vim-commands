@@ -1,5 +1,5 @@
 - **Note:** some of them are compatible with nvim only.
-- ## Sea1rch 
+- ## Search 
 
   1. `/\c<search_word>` for case insenstive search
 
