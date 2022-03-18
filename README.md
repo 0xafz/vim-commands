@@ -1,15 +1,7 @@
 - **Note:** some of them are compatible with nvim only.
 - ## Search 
 
-  1. `/\c<search_word>` for case insenstive search
-
-- ## Indentation
-
-  1. `gg=G`. `gg` to get the start of the file, `=` to indent,`G` to the end of the file.
-
-- ## Reloading
-
-  1. reloading the current file -> `:e` or `:edit`.
+  1. `/\C<search_word>` for case senstive search
 
 - ## Insert around selection
 
@@ -19,9 +11,11 @@
 
   1. :help quickref
 
-- ## Changing a word at n positions
+- ## Find and Replace
 
   1. `/<existing word>` => `cgn<desired word>` => `.` to replace next <existing word> with <desired word>
+  2. `:%s/foo/bar/g`
+  3. For specific lines: `:6,10s/foo/bar/g`
 
 - ## Copying and cutting in normal mode
 
@@ -34,22 +28,8 @@
   7. [Check for more](https://vim.fandom.com/wiki/Copy,_cut_and_paste)
   8. [ Sublime-Like cursor Editing ](https://stackoverflow.com/questions/11784408/vim-multiline-editing-like-in-sublimetext)
 
-- ## Moving lines up or down
-
-  1. [Check](https://vim.fandom.com/wiki/Moving_lines_up_or_down#:~:text=In%20normal%20mode%20or%20in,to%20move%20the%20block%20up.)
-
 - ## Command History
 
   1.press `q:` to open **Command History** and `:q` to close it.
 
-- ## Editing multiple files
 
-  1. `:tabe path-to-file`
-
-- ## Snippets
-
-  1. `/.config/coc/ultisnips/` or `:CocCommand snippets<TAB>`
-
-- ## Emmet
-
-  1. `emmet-expr` and type `ctrl-y,`
