@@ -2,6 +2,7 @@
 - ## Search 
 
   1. `/\C<search_word>` for case senstive search
+  2. place cursor on word and do `Shift+#` for next matching word
 
 - ## Insert around selection
 
