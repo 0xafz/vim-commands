@@ -2,6 +2,7 @@
 - ## Search
 
   - `/\C<search_word>` for case senstive search
+  - `:noh` to turn off highlighting until the next search:
   - place cursor on word and do `Shift+#` for next matching word
 
 - ## Insert around selection
